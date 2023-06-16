@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Entry point to the program
+ * main - Entry point
  *
  * Return: Always (Success)
  */
 int main(void)
 {
-	int a, b;
+	int x, y; /*Declaring statement*/
 
-	for (a = '0'; a <= '9'; a++)
+	for (x = '0'; x <= '9'; x++)
 	{
-		for (b = '0'; b <= 9; b++)
+		for (y = '0'; y <= '9'; y++)
 		{
-			if (a < b)
+			if (x < y)
 			{
-				putchar(a);
-				putchar(b);
+				putchar(x);
+				putchar(y);
 
-				if (a != '8' || (a == '8' && b != '9'))
+				if (x != '8' || (x == '8' && y != '9'))
 				{
 					putchar(',');
 					putchar(' ');
@@ -26,4 +26,9 @@ int main(void)
 			}
 		}
 	}
+
+	putchar('\n');
+
+	return (0);
 }
+
