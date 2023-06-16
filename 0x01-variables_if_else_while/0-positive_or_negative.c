@@ -13,15 +13,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("n is positive\n");
+		printf("%d is positive\n");
 	}
 	else if (n == 0)
 	{
-		printf("n is equal to zero\n");
+		printf("%d is equal to zero\n");
 	}
 	else 
 	{
-		printf("n is negative");
+		printf("%d is negative");
 	}	
 	return (0);
 }
