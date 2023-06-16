@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - Prints the combination of three numbers in ascending order
+ * main - Prints 3 combination of numbers
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int a, b, c;
+	int a, b, c; /*Declaring statements*/
 
 	for (a = '0'; a <= '9'; a++)
 	{
@@ -22,12 +22,14 @@ int main(void)
 					putchar(c);
 					if (a != '7')
 					{
-						putchar(',');
-						putchar(' ');
+					putchar(',');
+					putchar(' ');
 					}
 				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
+
