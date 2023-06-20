@@ -1,21 +1,24 @@
 #include "main.h"
+
 /**
  * main - A program that prints _putchar
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
+
 {
-	int y;
+	int x; /*Declaration statement*/
 
-	char string[8] = "_putchar";
+	char string[8] = "_putchar"; /*Arrays*/
 
-	for (x = 0; x < 8; x++)
+	for (x = 0; x < 8; x++) /*Starting for loop statement*/
 	{
-		_putchar(string[x]);
-	}
+		_putchar(string[x]); /*Displaying word*/
+	} /*End of for loop statement*/
 
 	_putchar ('\n');
 
 	return (0);
 }
+
