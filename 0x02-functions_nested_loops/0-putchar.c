@@ -14,7 +14,7 @@ int main(void)
 
 	for (x = 0; x < 8; x++) /*Starting for loop statement*/
 	{
-		_putchar(string[x]); /*Displaying word*/
+		_putchar(string[x]);/*Displaying word*/
 	} 
 
 	_putchar ('\n');
