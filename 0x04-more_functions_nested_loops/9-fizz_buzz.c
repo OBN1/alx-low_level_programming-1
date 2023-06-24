@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	int k;
+	int b;
 
-	for (k = 1; k <= 100; k++)
+	for (b = 1; b <= 100; b++)
 	{
-		if ((k % 3 == 0) && (k % 5 == 0))
+		if ((b % 3 == 0) && (b % 5 == 0))
 			printf("FizzBuzz");
-		else if (k % 5 == 0)
+		else if (b % 5 == 0)
 			printf("Buzz");
-		else if (k % 3 == 0)
+		else if (b % 3 == 0)
 			printf("Fizz");
 		else
-			printf("%i", k);
-		if (k < 100)
+			printf("%i", b);
+		if (b < 100)
 			printf(" ");
 		else
 			printf("\n");
