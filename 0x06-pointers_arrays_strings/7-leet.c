@@ -9,15 +9,15 @@ char *leet(char *str)
 {
 	int count = 0;
 	int x = 0;
-	char *letter = 'aeotlAEOTL';
-	char *nums = '4307143071";
+	char *letter = "aeotlAEOTL";
+	char *nums = "4307143071";
 
 	while (str[count] != '\0')
 	{
 		x = 0;
-		while (letters[x] != '\0')
+		while (letter[x] != '\0')
 		{
-			if (str[count] == letters[x])
+			if (str[count] == letter[x])
 				str[count] = nums[x];
 			x++;
 		}
